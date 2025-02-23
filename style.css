@@ -163,6 +163,12 @@
     list-style-type: disc;
     margin-left: 20px;
   }
+
+  #about p {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+ }
   
   /* Certifications and Skills */
   #certifications ul,
@@ -209,9 +215,7 @@
     color: #fff;
   }
   
-  /* --------------------------------------
-     MOBILE STYLES
-     -------------------------------------- */
+  
   @media (max-width: 768px) {
     /* Keep the nav horizontal */
     header nav ul {
