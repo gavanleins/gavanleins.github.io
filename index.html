@@ -1,158 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gavan Leins' Resume</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: grey;
-            color: #333;
-        }
-
-        header {
-            background-color: #212224;
-            color: white;
-            text-align: center;
-            padding: 1.5rem 0;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-
-        header p {
-            margin-top: 0.5rem;
-            font-size: 1.2rem;
-        }
-
-        nav {
-            background-color: #1b1b1c;
-            padding: 0.5rem 0;
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            margin: 0;
-            padding: 0;
-        }
-
-        nav ul li {
-            margin: 0 1rem;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        nav ul li a:hover {
-            text-decoration: underline;
-        }
-
-        main {
-            padding: 2rem;
-            max-width: 800px;
-            margin: 2rem auto;
-            background: white;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
-        }
-
-        section {
-            margin-bottom: 2rem;
-        }
-
-        section h2 {
-            border-bottom: 2px solid #1b1b1c;
-            padding-bottom: 0.5rem;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1rem 0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gavan Leins - Cybersecurity Resume</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Gavan Leins</h1>
-        <p>Cybersecurity Student & Aspiring Professional</p>
-    </header>
+  <header>
     <nav>
-        <ul>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#education">Education</a></li>
-        </ul>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
-    <main>
-        <section id="experience">
-            <h2>Experience</h2>
-            <div>
-                <h3>Columbia Sportswear | Las Vegas, NV</h3>
-                <p><strong>Designated Key Holder</strong> | 02/2023 - 08/2023</p>
-                <ul>
-                    <li>Cash management: Handled opening and closing procedures.</li>
-                    <li>Supervised daily operations ensuring smooth workflow.</li>
-                    <li>Provided guidance and direction to retail associates.</li>
-                    <li>Managed back-of-house operations, including package receiving and stocking.</li>
-                </ul>
-            </div>
-            <div>
-                <h3>Columbia Sportswear | Las Vegas, NV</h3>
-                <p><strong>Retail Sales Associate</strong> | 11/2021 - 02/2023</p>
-                <ul>
-                    <li>Assisted with sales and managed cash register transactions.</li>
-                    <li>Maintained a customer loyalty rate of over 85%.</li>
-                    <li>Merchandised and maintained the workspace.</li>
-                </ul>
-            </div>
-        </section>
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>Cybersecurity</li>
-                <li>Microsoft Excel</li>
-                <li>Computer Literacy</li>
-                <li>Communication Skills</li>
-                <li>Leadership</li>
-                <li>Python</li>
-            </ul>
-        </section>
-        <section id="education">
-            <h2>Education</h2>
-            <div>
-                <h3>Southern Utah University | Cedar City, UT</h3>
-                <p><strong>Cybersecurity Major</strong> with Minor in Computer Science | Graduating 04/2026</p>
-            </div>
-            <div>
-                <h3>College of Southern Nevada | Las Vegas, NV</h3>
-                <p>Completed Cybersecurity and English classes during high school | Graduated 05/2023</p>
-            </div>
-            <div>
-                <h3>West Career & Technical Academy | Las Vegas, NV</h3>
-                <p>College and Career Ready Diploma in Cybersecurity | Graduated 05/2023</p>
-                <ul>
-                    <li>3.5+ GPA | 4.0+ Weighted GPA</li>
-                    <li>President of Cybersecurity program</li>
-                    <li>CTE Workplace Readiness Skills</li>
-                </ul>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Gavan Leins. All rights reserved.</p>
-    </footer>
+    <!-- Dark overlay for better text contrast -->
+    <div class="overlay"></div>
+    <div class="hero">
+      <h1>Gavan Leins</h1>
+      <p class="tagline">Cybersecurity Student | Aspiring Intern</p>
+      <div class="contact-info">
+        <p>(702) 785-2207 | <a href="mailto:gavan.leins@gmail.com">gavan.leins@gmail.com</a></p>
+        <p>Las Vegas, NV | <a href="https://www.linkedin.com/in/gavanleins/" target="_blank">LinkedIn</a></p>
+      </div>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+        My name is Gavan Leins and I am a pursing a degree in Cybersecurity. With four years of education throughout high school in the Cybersecurity field, I have developed many skills such as incident response, Network Security, and Intrusion detection which enable me to identify and mitigate security risks.
+         I am passionate about continuing my education within the field getting a bachelors degree in Cybersecurity at Southern Utah Universitys.
+    </p>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="experience-item">
+      <h3>Target | Overnight Inbound</h3>
+      <p class="location">Las Vegas, NV | 04/2024 - 08/2024</p>
+      <ul>
+        <li>Successfully managed overnight operations, unloading and organizing shipments in a fast-paced environment.</li>
+        <li>Implemented inventory management techniques to ensure accurate stock levels.</li>
+        <li>Collaborated with team members to efficiently stock shelves and maintain store organization.</li>
+        <li>Demonstrated strong attention to detail in handling and sorting merchandise.</li>
+      </ul>
+    </div>
+    <div class="experience-item">
+      <h3>Columbia Sportswear - Designated Key Holder</h3>
+      <p class="location">Las Vegas, NV | 02/2023 - 08/2023</p>
+      <ul>
+        <li>Managed cash handling and opening/closing procedures.</li>
+        <li>Supervised daily store operations and team coordination.</li>
+        <li>Handled back-of-house operations including receiving packages and stocking.</li>
+      </ul>
+    </div>
+    <div class="experience-item">
+      <h3>Columbia Sportswear - Retail Sales Associate</h3>
+      <p class="location">Las Vegas, NV | 11/2021 - 02/2023</p>
+      <ul>
+        <li>Assisted with sales and managed cash register transactions.</li>
+        <li>Maintained a high customer loyalty rate.</li>
+        <li>Managed merchandising and maintained the sales floor.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="education-item">
+      <h3>Southern Utah University</h3>
+      <p class="degree">Cybersecurity Major with Minor in Computer Science</p>
+      <p class="date">Cedar City, UT | Expected 04/2026</p>
+      <p>Dean's List Student</p>
+    </div>
+    <div class="education-item">
+      <h3>College of Southern Nevada</h3>
+      <p class="date">Las Vegas, NV | 05/2023</p>
+      <p>Completed Cybersecurity and English classes at CSN throughout high school.</p>
+    </div>
+    <div class="education-item">
+      <h3>West Career & Technical Academy</h3>
+      <p class="date">Las Vegas, NV | 05/2023</p>
+      <p>
+        College and Career Ready Diploma in Cybersecurity, President of the Cybersecurity Program, and CTE Workplace Readiness Skills.
+      </p>
+      <p>GPA: 3.5+ | 4.0+ Weighted GPA</p>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>CompTIA Security+</li>
+      <li>AWS Certified Cloud Practitioner</li>
+      <li>AWS Certified AI Practitioner</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Threat Management</li>
+      <li>Cybersecurity</li>
+      <li>Firewalls</li>
+      <li>Cryptography</li>
+      <li>Cloud Computing</li>
+      <li>AWS</li>
+      <li>Management Experience</li>
+      <li>Sales</li>
+      <li>Data Security</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:gavan.leins@gmail.com">gavan.leins@gmail.com</a></p>
+    <p>Phone: (702) 785-2207</p>
+    <p>Location: Las Vegas, NV</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/gavanleins/" target="_blank">Gavan Leins</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gavan Leins. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
